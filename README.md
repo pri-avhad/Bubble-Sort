@@ -5,7 +5,7 @@ Bubble sort is a simple sorting algorithm. This sorting algorithm is comparison-
 
 Bubble sort for numbers is done by the following algorithm:
 ```
-procedure bubbleSort( list : array of items )
+BubbleSort(list : array of items)
    loop = list.count;
    for i = 0 to loop-1 do:
       swapped = false
@@ -23,7 +23,7 @@ procedure bubbleSort( list : array of items )
          break
       end if
    end for
-end procedure return list
+end and return list
 ```
 
 To perform bubble sort on Strings we compare adjacent Strings and if they are not in the order then we need to swap those strings.
